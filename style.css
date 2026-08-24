@@ -27,3 +27,24 @@ main{max-width:1450px;margin:auto;padding:18px 5% 0}.section-anchor{scroll-margi
 .letter-preview{position:relative;z-index:2;width:100%;height:420px;background:#fff;border:2px solid #527345;border-radius:3px;overflow:hidden;box-shadow:0 0 35px rgba(0,0,0,.35)}.letter-preview iframe{display:block;width:100%;height:100%;border:0;background:#fff}
 @media(max-width:850px){.letter-preview{height:420px}}
 @media(max-width:600px){.letter-preview{height:360px}}
+@media(max-width:600px){
+	.topbar{gap:12px;padding:10px 4%;}
+	.brand{min-width:0;flex:1;}
+	.brand b{font-size:12px;}
+	.hero-copy{padding:35px 22px;}
+	.hero-art{min-height:255px;}
+	.hero-stats{justify-content:space-between;gap:10px;}
+	.hero-stats span{display:block;max-width:70px;}
+	.section-head h2{font-size:25px;line-height:1.2;}
+	.awards-grid,.media-grid,.skill-grid,.timeline-grid,.experience-grid{grid-template-columns:minmax(0,1fr);}
+	.media-card,.award-card,.panel,.timeline-card,.experience-card{min-width:0;padding:20px;}
+	.media-meta{align-items:flex-start;gap:8px;}
+	.media-meta .year{min-width:0;overflow-wrap:anywhere;}
+	.media-card h3,.award-card h3,.timeline-card h3,.experience-card h3{overflow-wrap:anywhere;}
+	.media-card p,.award-card p,.timeline-card p,.experience-card p,.letter-content p{overflow-wrap:anywhere;}
+	.letter-actions{flex-wrap:wrap;}
+	.letter-actions a,.hero-actions a{width:100%;text-align:center;}
+	.contact-section{grid-template-columns:minmax(0,1fr);}
+	.contact-form,.contact-info{min-width:0;}
+	footer{padding:28px 4%;overflow-wrap:anywhere;}
+}
